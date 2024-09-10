@@ -1,6 +1,6 @@
 
 
-let getPercent = ()=>{
+function getPercent(){
     let totalMarks = document.getElementById("tm1").value;
     let marksObtained = document.getElementById("mo1").value;
     let result = (marksObtained / totalMarks) * 100;
