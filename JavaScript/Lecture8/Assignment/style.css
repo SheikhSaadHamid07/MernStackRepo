@@ -1,0 +1,135 @@
+.page{
+    width:85%;
+    margin:0 auto 0 auto;
+  
+    height: auto;
+}
+
+.header{
+    height: 150px;
+    background-color: white;
+    position: relative;
+    
+    
+  
+}
+.img-logo{
+    height: 150px;
+    display:inline;
+    float: left;
+}
+
+.nav-items{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: -20px;
+   
+}
+.nav-elements > ul > li{
+    display: inline;
+    margin-left: 170px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color:black;
+
+}
+.nav-items>li>a{
+    text-decoration: none;
+    color:grey
+
+}
+.nav-items>li>a:hover{
+    color:dodgerblue;
+}
+
+
+.body{
+    height: 800px;
+    background-color: white;
+    align-items: center;
+    margin-left:420px;
+    margin-top: 40px;
+}
+.body-form{
+    
+    width: 550px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    color:floralwhite;
+ 
+  
+  
+    
+}
+
+.body-header>h1{
+    font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:cornflowerblue;
+  text-align: center;
+  width:35%;
+  margin-left: 75px;
+  margin-bottom: 45px;
+}
+.form-elements
+{
+    margin-left: 50px;
+    padding-top :10px;
+    
+}
+.form-elements>label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   
+}
+
+.marks{
+    display: inline;
+    margin-bottom: 40px;
+    margin-top:10px;
+    align-items:center;
+    border-radius: 5px;
+    height: 35px;
+    width:450px;
+    border: none;
+    
+    
+}
+
+.btn-calculate{
+    width:450px;
+    margin-left: 0px;
+    height: 50px;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border:none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(221, 115, 221);
+    color:azure
+
+}
+.results{
+    width:35%;
+    margin-left: 75px;
+    margin-top:40px
+}
+
+.message{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
